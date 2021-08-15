@@ -1,8 +1,9 @@
 {
-  "name": "test",
+  "name": "business-rules-processor",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index",
   "scripts": {
     "build": "run-s clean build:parser build:src",
     "build:src": "tsc -p ./tsconfig.json",
@@ -21,7 +22,8 @@
     "peggy": "^1.2.0",
     "ts-node": "^10.2.0",
     "ts-pegjs": "^1.1.1",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "yargs": "^17.1.1"
   },
   "devDependencies": {
     "@jtechsvcs/eslint": "^1.0.2",
@@ -30,7 +32,6 @@
     "@types/yargs": "^17.0.2",
     "fs-extra": "^10.0.0",
     "rimraf": "^3.0.2",
-    "type-fest": "^2.0.0",
-    "yargs": "^17.1.1"
+    "type-fest": "^2.0.0"
   }
 }
