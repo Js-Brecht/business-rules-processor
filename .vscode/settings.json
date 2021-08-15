@@ -1,0 +1,6 @@
+{
+    "eslint.nodePath": "node_modules/@jtechsvcs/eslint",
+    "eslint.options": {
+        "resolvePluginsRelativeTo": "node_modules/@jtechsvcs/eslint"
+    }
+}
