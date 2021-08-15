@@ -116,7 +116,7 @@ Certain operators do not require `[value]`.
   * Accepts no `Value`
   * `null` values are considered empty
 
-  `{foo} is empty`
+    `{foo} is empty`
 
 ## To test
 
