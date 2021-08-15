@@ -3,14 +3,6 @@
 
 Use natural language to create rules for processing business logic
 
-## Run
-
-* Install dependencies
-
-    ```sh
-    pnpm install
-    ```
-
 ## Validate a data set
 
 Assuming the data set is:
